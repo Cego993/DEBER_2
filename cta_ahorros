@@ -1,4 +1,4 @@
-from cuenta import Cuenta_Bancaria
+from cta import Cuenta_Bancaria
 
 class Cuenta_ahorro (Cuenta_Bancaria):
     def __init__(self, interes: float= 0, numero= None, nombre_propietario= None, saldo:float=0):
